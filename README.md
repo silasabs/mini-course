@@ -11,7 +11,7 @@
 
 ## OptiCommPy
 
- O OptiCommPy e uma estrutura baseada em Python para simular sistemas, subsistemas e componentes de sistemas de comunicação de fibra óptica. O pacote conta com os principais algoritmos utilizados em processamento digital de sinais:
+ O [OptiCommPy](https://github.com/edsonportosilva/OptiCommPy) e uma estrutura baseada em Python para simular sistemas, subsistemas e componentes de sistemas de comunicação de fibra óptica. O pacote conta com os principais algoritmos utilizados em processamento digital de sinais:
 
 - Filtragem FIR (CPU / GPU)
 - Upsample / Decimate
