@@ -97,13 +97,76 @@ O processo e semelhante para as demais distribuições !
 
 ### Adicionando Múltiplos Ambientes com o MiniConda
 
+Criar e gerenciar diferentes ambientes com MiniConda permite que você mantenha projetos independentes com versões específicas de pacotes e do Python.
+
+MiniConda é uma versão leve do Anaconda, que contém apenas o essencial: o Conda (o gerenciador de pacotes e ambientes) e Python. Ele é útil para criar ambientes isolados e gerenciar pacotes sem precisar baixar o Anaconda completo. Com ele, você pode criar diferentes ambientes para cada projeto com diferentes dependências e versões de Python.
+
+1. Instalando o MiniConda.
+
+    Se você estiver utilizando Windows siga as instruções a seguir.
+    
+    1. Acesse o [site oficial](https://docs.anaconda.com/miniconda/) do MiniConda e baixe a versão para Windows.
+    1. Execute o instalador e siga os passos. Marque a opção para adicionar o Conda ao PATH, permitindo seu uso no prompt de comando.
+    1. Após a instalação, abra o Prompt de Comando do Conda e digite: 
+        
+        ```
+        $ conda --version
+        ```
+    
+    Se você estiver utilizando Linux siga as instruções a seguir.
+
+    1. Siga os passos descritos [aqui](https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links)
+        
+        Esses quatro comandos baixam a versão mais recente de 64 bits do instalador do Linux, renomeiam-no para um nome de arquivo mais curto, instalam silenciosamente e, em seguida, excluem o instalador:
+
+        ```
+        mkdir -p ~/miniconda3
+        wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh -O ~/miniconda3/miniconda.sh
+        bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+        rm ~/miniconda3/miniconda.sh
+        ```
+
+2. Manipulando ambientes com o MiniConda
+
+    Agora com o MiniConda devidamente instalado podemos criar diferentes ambientes para diferentes projetos, podemos criar um ambiente como:
+
+    ```
+    $ conda create -n nome_do_ambiente_virtual python=3.11.4
+    ```
+
+    Onde o nome_do_ambiente_virtual pode ser substituido por qualquer nome que você desejar, como por exemplo "mini_curso_pds", você também pode especificar qualquer versão do Python, como 3.9, 3.7, etc.
+
+    Lembre-se que quando utilizamos o conda o ambiente virtual padrão é definido como "base" é será necessário realizar a troca para o ambiente que acabamos de criar, para fazer isso digite no seu terminal:
+
+    ```
+    $ conda activate mini_curso_pds
+    ```
+    
+    Para sair do ambiente virtual faça:
+
+    ```
+    $ conda deactivate
+    ```
+
+    Com o ambiente selecionado podemos começar a instalação dos pacotes que serão necessários durante o mini curso. Caso você queira aprender mais sobre MiniConda e como manipular diferentes ambientes virtuais acesse este [link](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html) que levará você para documentação oficial do MiniConda.
+
 ### Instalando o OptiCommPy
+
+Agora que você possui um ambiente devidamente configurado podemos instalar o OptiCommPy na env "mini_curso_pds", para isso faça:
+
+```
+$ pip install OptiCommPy
+```
+
+Automaticamente as demais dependências também serão instaladas como o NumPy, SciPy, Matplotlib ... Caso você deseje utilizar os algoritmos baseados em GPU certifique-se de possuir uma GPU Nvidia além de instalar a versão mais recente do CUDA e possuir o pacote CuPy em seu ambiente virtual "mini_curso_pds". Você também pode optar por utilizar o ambiente do Google Colab.
 
 ## Dicas
 
 ### Instalação customizada
 
 O modo desenvolvedor permite que você faça alterações no código-fonte do projeto enquanto testa e usa a versão mais recente do pacote sem precisar reinstalar ou recompilar constantemente. Ele é útil para quem está contribuindo com o desenvolvimento de um pacote ou para necessidades específicas.
+
+Para realizar estas etapas e importante que você possua o Git instalado em sua máquina, caso contrário você pode instalar seguindo os passos descritos [aqui](https://git-scm.com/downloads) em "Downloads" selecione sua plataforma e siga as instruções necessárias.
 
 1. Clonando o Repositório do OptiCommPy
 
