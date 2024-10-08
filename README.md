@@ -1,15 +1,15 @@
-# OptiCommPy 
+# Guia de Configuração
 
-- [O que é o OptiCommPy ?](#o-que-é-o-opticommpy-?)
+- [OptiCommPy](#opticommpy)
 - [Prepando o seu ambiente](#prepando-o-seu-ambiente)
 	- [Verificando e Instalando o Python](#verificando-e-instalando-o-python)
-	- [Adicionando Múltiplos Ambientes com o MiniConda](#adicionando-múltiplos-ambientes-com-o-miniconda)
+	- [Criando Ambientes Virtuais com o MiniConda](#criando-ambientes-virtuais-com-o-miniconda)
 	- [Instalando o OptiCommPy](#instalando-o-opticommpy)
 - [Dicas](#dicas)
     - [Instalação customizada](#instalação-customizada)
     - [Integração com Jupyter Notebooks](#integração-com-jupyter-notebooks)
 
-## O que é o OptiCommPy ?
+## OptiCommPy
 
  O OptiCommPy e uma estrutura baseada em Python para simular sistemas, subsistemas e componentes de sistemas de comunicação de fibra óptica. O pacote conta com os principais algoritmos utilizados em processamento digital de sinais:
 
@@ -95,7 +95,7 @@ Na maioria das distribuições Linux, como Ubuntu e Fedora, o Python geralmente 
 
 O processo e semelhante para as demais distribuições !
 
-### Adicionando Múltiplos Ambientes com o MiniConda
+### Criando Ambientes Virtuais com o MiniConda
 
 Criar e gerenciar diferentes ambientes com MiniConda permite que você mantenha projetos independentes com versões específicas de pacotes e do Python.
 
@@ -106,8 +106,10 @@ MiniConda é uma versão leve do Anaconda, que contém apenas o essencial: o Con
     Se você estiver utilizando Windows siga as instruções a seguir.
     
     1. Acesse o [site oficial](https://docs.anaconda.com/miniconda/) do MiniConda e baixe a versão para Windows.
-    1. Execute o instalador e siga os passos. Marque a opção para adicionar o Conda ao PATH, permitindo seu uso no prompt de comando.
-    1. Após a instalação, abra o Prompt de Comando do Conda e digite: 
+    
+    2. Execute o instalador e siga os passos. Marque a opção para adicionar o Conda ao PATH, permitindo seu uso no prompt de comando.
+    
+    3. Após a instalação, abra o Prompt de Comando do Conda e digite: 
         
         ```
         $ conda --version
