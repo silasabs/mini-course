@@ -120,14 +120,14 @@ MiniConda é uma versão leve do Anaconda, que contém apenas o essencial: o Con
 
 1. Siga os passos descritos [aqui](https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links)
         
-Esses quatro comandos baixam a versão mais recente de 64 bits do instalador do Linux, renomeiam-no para um nome de arquivo mais curto, instalam silenciosamente e, em seguida, excluem o instalador:
+    Esses quatro comandos baixam a versão mais recente de 64 bits do instalador do Linux, renomeiam-no para um nome de arquivo mais curto, instalam silenciosamente e, em seguida, excluem o instalador:
 
-```
-$ mkdir -p ~/miniconda3
-$ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64 sh -O ~/miniconda3/miniconda.sh
-$ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
-$ rm ~/miniconda3/miniconda.sh
-```
+    ```
+    $ mkdir -p ~/miniconda3
+    $ wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64 sh -O ~/miniconda3/miniconda.sh
+    $ bash ~/miniconda3/miniconda.sh -b -u -p ~/miniconda3
+    $ rm ~/miniconda3/miniconda.sh
+    ```
 
 #### Manipulando ambientes com o MiniConda
 
