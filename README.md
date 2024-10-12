@@ -30,6 +30,8 @@ E dentre outros. Além disso diversos algoritmos são acelerados a partir do Num
 
 ### Verificando e Instalando o Python
 
+Ter o Python instalado é essencial para utilizarmos o OptiCommPy permitindo a execução dos algoritmos que serão explorados durante o mini curso.
+
 #### Instruções para o Windows
 
 1. Verifique se você possui o python instalado em sua máquina.
@@ -163,7 +165,11 @@ Agora que você possui um ambiente devidamente configurado podemos instalar o Op
 $ pip install OptiCommPy
 ```
 
-Automaticamente as demais dependências também serão instaladas como o NumPy, SciPy, Matplotlib ... Caso você deseje utilizar os algoritmos baseados em GPU certifique-se de possuir uma GPU Nvidia além de instalar a versão mais recente do CUDA e possuir o pacote CuPy em seu ambiente virtual "mini_curso_pds". Você também pode optar por utilizar o ambiente do Google Colab.
+Automaticamente as demais dependências também serão instaladas como o NumPy, SciPy, Matplotlib ... 
+
+Se você deseja utilizar os algoritmos baseados em GPU certifique-se de possuir uma GPU Nvidia além de instalar a versão mais recente do CUDA e possuir o pacote CuPy em seu ambiente virtual "mini_curso_pds". Você também pode optar por utilizar o ambiente do Google Colab.
+
+**Importante**: Caso você utilize algum editor de código como o Visual Studio Code, certifique-se de que o ambiente virtual que acabamos de criar está selecionado.
 
 ## Dicas
 
