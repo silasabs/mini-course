@@ -3,6 +3,8 @@
 - [OptiCommPy](#opticommpy)
 - [Prepando o seu ambiente](#prepando-o-seu-ambiente)
 	- [Verificando e Instalando o Python](#verificando-e-instalando-o-python)
+	    - [Instruções para o Windows](#instruções-para-o-windows)
+	    - [Instruções para o Linux](#instruções-para-o-linux)
 	- [Criando Ambientes Virtuais com o MiniConda](#criando-ambientes-virtuais-com-o-miniconda)
 	    - [Instalando o MiniConda no Windows](#instalando-o-miniconda-no-windows)
 	    - [Instalando o MiniConda no Linux](#instalando-o-miniconda-no-linux)
@@ -28,7 +30,7 @@ E dentre outros. Além disso diversos algoritmos são acelerados a partir do Num
 
 ### Verificando e Instalando o Python
 
-Se você estiver utilizando Windows siga as instruções a seguir.
+#### Instruções para o Windows
 
 1. Verifique se você possui o python instalado em sua máquina.
 
@@ -66,7 +68,7 @@ Se você estiver utilizando Windows siga as instruções a seguir.
     $ python -m ensurepip --upgrade
     ```
 
-Se você estiver utilizando Linux siga as instruções a seguir.
+#### Instruções para o Linux
 
 Na maioria das distribuições Linux, como Ubuntu e Fedora, o Python geralmente já vem pré-instalado. Caso não esteja, você pode instalar facilmente.
 
@@ -118,7 +120,7 @@ MiniConda é uma versão leve do Anaconda, que contém apenas o essencial: o Con
 
 #### Instalando o MiniConda no Linux
 
-1. Siga os passos descritos [aqui](https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links)
+1. Siga os passos descritos [aqui](https://docs.anaconda.com/miniconda/#miniconda-latest-installer-links). Vá até "Quick command line install" e selecione a opção "Linux" as mesmas instruções se encontram abaixo:
         
     Esses quatro comandos baixam a versão mais recente de 64 bits do instalador do Linux, renomeiam-no para um nome de arquivo mais curto, instalam silenciosamente e, em seguida, excluem o instalador:
 
