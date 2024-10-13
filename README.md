@@ -30,7 +30,7 @@ E dentre outros. Além disso diversos algoritmos são acelerados a partir do Num
 
 ### Verificando e Instalando o Python
 
-Ter o Python instalado é essencial para utilizarmos o OptiCommPy permitindo a execução dos algoritmos que serão explorados durante o mini curso.
+Será necessário ter o Python instalado para utilizarmos o OptiCommPy, permitindo a execução dos algoritmos que serão explorados durante o mini curso.
 
 #### Instruções para o Windows
 
@@ -149,7 +149,7 @@ Lembre-se que quando utilizamos o conda o ambiente virtual padrão é definido c
 $ conda activate mini_curso_pds
 ```
 
-Para sair do ambiente virtual faça:
+Caso queira retornar para o ambiente "base" faça:
 
 ```
 $ conda deactivate
@@ -206,3 +206,49 @@ Para realizar estas etapas e importante que você possua o Git instalado em sua 
     O "-e" indica "*editable mode*", que é o modo desenvolvedor. Isso permite modificar o código diretamente e ver as mudanças sem precisar reinstalar o pacote. Agora, qualquer mudança feita no código-fonte será automaticamente refletida quando o pacote for executado.
 
 ### Integração com Jupyter Notebooks
+
+Utilizar os cadernos jupyter ".ipynb" nos permite testar o código em pequenos blocos, alternar entre explicações teóricas e práticas no mesmo ambiente, obter a visualização de gráficos diretamente nas células e diversas outras funcionalidades que nos ajudam na compreensão de conceitos mais complexos. 
+
+Aqui iremos fornecer instruções para integrar o seu ambiente criando anteriormente para aproveitar os benefícios que os cadernos jupyter fornecem através do ambiente do Jupyter Notebook. O Jupyter Notebook é um ambiente de desenvolvimento interativo, onde o código é executado através do navegador da web porém funcionando localmente. 
+
+Agora que criamos e ativamos um ambiente conda "mini_curso_pds", vamos ver como podemos usá-lo no Jupyter Notebook.
+
+1. Instalando a interface clássica do Jupyter Notebook
+
+    Primeiro, certifique-se de ter o pip mais recente; versões mais antigas podem ter problemas com algumas dependências:
+    
+    ```
+    $ pip3 install --upgrade pip
+    ```
+
+2. Em seguida, instale o Jupyter Notebook usando:
+
+    ```
+    $ pip3 install jupyter
+    ```
+
+3. Instale o pacote ipykernel utilizando o repositório do conda-forge:
+
+    ```
+    $ conda install ipykernel
+    ```
+    
+    Este pacote permite que você crie um kernel para o ambiente conda que pode ser usado no Jupyter Notebook.
+
+4. Crie um kernel para o seu ambiente:
+
+    ```
+    $ python -m ipykernel install --user --name=mini_curso_pds
+    ```
+    
+    Isso criará um novo kernel para o ambiente “mini_curso_pds” que pode ser usado no Jupyter Notebook.
+
+5. Inicie o Jupyter Notebook:
+
+    ```
+    $ jupyter notebook
+    ```
+    
+    O Jupyter Notebook irá inicializar um servidor local. Você deverá ver o serviço aberto no seu navegador.
+
+Agora no Jupyter Notebook, crie ou abra um notebook, e no canto superior direito selecione “mini_curso_pds” como o kernel. Agora você deve conseguir usar os pacotes instalados no ambiente “mini_curso_pds” no seu Jupyter Notebook.
