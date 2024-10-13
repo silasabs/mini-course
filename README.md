@@ -209,7 +209,7 @@ Para realizar estas etapas e importante que você possua o Git instalado em sua 
 
 Utilizar os cadernos jupyter ".ipynb" nos permite testar o código em pequenos blocos, alternar entre explicações teóricas e práticas no mesmo ambiente, obter a visualização de gráficos diretamente nas células e diversas outras funcionalidades que nos ajudam na compreensão de conceitos mais complexos. 
 
-Aqui iremos fornecer instruções para integrar o seu ambiente criando anteriormente para aproveitar os benefícios que os cadernos jupyter fornecem através do ambiente do Jupyter Notebook. O Jupyter Notebook é um ambiente de desenvolvimento interativo, onde o código é executado através do navegador da web porém funcionando localmente. 
+Aqui iremos fornecer instruções para integrar o seu ambiente criado anteriormente para aproveitar os benefícios que os cadernos jupyter fornecem através do ambiente do Jupyter Notebook. O Jupyter Notebook é um ambiente de desenvolvimento interativo, onde o código é executado através do navegador da web porém funcionando localmente. 
 
 Agora que criamos e ativamos um ambiente conda "mini_curso_pds", vamos ver como podemos usá-lo no Jupyter Notebook.
 
