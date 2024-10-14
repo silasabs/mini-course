@@ -48,7 +48,7 @@ Será necessário ter o Python instalado para utilizarmos o OptiCommPy, permitin
 
     Acesse o [site oficial](https://www.python.org/downloads/) e baixe o instalador para a versão mais recente do Python 3. Execute o instalador baixado. 
 
-    **Importante**: Marque a opção "*Add Python to PATH*" antes de clicar em *Install Now*. Isso adicionará o Python ao seu PATH, permitindo que você o execute em qualquer lugar do PowerShell.
+    **Importante**: Marque a opção "*Add Python to PATH*" antes de clicar em *"Install Now"*. Isso adicionará o Python ao seu PATH, permitindo que você o execute em qualquer lugar do PowerShell.
 
 3. Verificando a instalação.
     
@@ -205,13 +205,15 @@ Para realizar estas etapas e importante que você possua o Git instalado em sua 
     
     O "-e" indica "*editable mode*", que é o modo desenvolvedor. Isso permite modificar o código diretamente e ver as mudanças sem precisar reinstalar o pacote. Agora, qualquer mudança feita no código-fonte será automaticamente refletida quando o pacote for executado.
 
-### Integração com Jupyter Notebooks
+### Integração com Jupyter Notebook
 
 Utilizar os cadernos jupyter ".ipynb" nos permite testar o código em pequenos blocos, alternar entre explicações teóricas e práticas no mesmo ambiente, obter a visualização de gráficos diretamente nas células e diversas outras funcionalidades que nos ajudam na compreensão de conceitos mais complexos. 
 
 Aqui iremos fornecer instruções para integrar o seu ambiente criado anteriormente para aproveitar os benefícios que os cadernos jupyter fornecem através do ambiente do Jupyter Notebook. O Jupyter Notebook é um ambiente de desenvolvimento interativo, onde o código é executado através do navegador da web porém funcionando localmente. 
 
 Agora que criamos e ativamos um ambiente conda "mini_curso_pds", vamos ver como podemos usá-lo no Jupyter Notebook.
+
+**Importante**: Siga as instruções abaixo com a env "mini_curso_pds" selecionada.
 
 1. Instalando a interface clássica do Jupyter Notebook
 
@@ -249,6 +251,6 @@ Agora que criamos e ativamos um ambiente conda "mini_curso_pds", vamos ver como 
     $ jupyter notebook
     ```
     
-    O Jupyter Notebook irá inicializar um servidor local. Você deverá ver o serviço aberto no seu navegador.
+    O Jupyter Notebook irá inicializar um servidor local. Você deverá ver o ambiente aberto no seu navegador.
 
 Agora no Jupyter Notebook, crie ou abra um notebook, e no canto superior direito selecione “mini_curso_pds” como o kernel. Agora você deve conseguir usar os pacotes instalados no ambiente “mini_curso_pds” no seu Jupyter Notebook.
