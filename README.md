@@ -11,7 +11,7 @@
 	    - [Manipulando ambientes com o MiniConda](#manipulando-ambientes-com-o-miniconda)
 	- [Instalando o OptiCommPy](#instalando-o-opticommpy)
 - [Dicas](#dicas)
-    - [Instalação customizada](#instalação-customizada)
+    - [Instalação customizada](#instalação-customizada-opcional)
     - [Integração com Jupyter Notebooks](#integração-com-jupyter-notebook)
 
 ## OptiCommPy
@@ -173,7 +173,7 @@ Se você deseja utilizar os algoritmos baseados em GPU certifique-se de possuir 
 
 ## Dicas
 
-### Instalação customizada
+### Instalação customizada (opcional)
 
 O modo desenvolvedor permite que você faça alterações no código-fonte do projeto enquanto testa e usa a versão mais recente do pacote sem precisar reinstalar ou recompilar constantemente. Ele é útil para quem está contribuindo com o desenvolvimento de um pacote ou para necessidades específicas.
 
