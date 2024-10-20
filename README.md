@@ -12,7 +12,7 @@
 	- [Instalando o OptiCommPy](#instalando-o-opticommpy)
 - [Dicas](#dicas)
     - [Instalação customizada](#instalação-customizada-opcional)
-    - [Integração com Jupyter Notebooks](#integração-com-jupyter-notebook)
+    - [Integração com Jupyter Notebook](#integração-com-jupyter-notebook)
 
 ## OptiCommPy
 
