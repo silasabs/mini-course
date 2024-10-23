@@ -179,6 +179,8 @@ O modo desenvolvedor permite que você faça alterações no código-fonte do pr
 
 Para realizar estas etapas e importante que você possua o Git instalado em sua máquina, caso contrário você pode instalar seguindo os passos descritos [aqui](https://git-scm.com/downloads). Em "Downloads" selecione sua plataforma e siga as instruções necessárias.
 
+**Importante**: Caso você decida seguir estes passos e necessário criar um novo ambiente virtual para instalação em modo desenvolvedor, evitando possíveis conflitos com o pacote já instalado no ambiente "mini_curso_pds".
+
 1. Clonando o Repositório do OptiCommPy
 
     Com o Git instalado abra o terminal e use o comando abaixo para clonar o  repositório do OptiCommPy
